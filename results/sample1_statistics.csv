@@ -1,0 +1,2 @@
+sample_id,total_reads,primer_dimer_count,primer_dimer_percentage,short_offtarget_count,long_offtarget_count,valid_amplicon_count
+sample1,1,1,100.0,1,0,0

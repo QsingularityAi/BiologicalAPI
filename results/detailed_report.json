@@ -1,0 +1,62 @@
+{
+  "overall_statistics": {
+    "total_samples": 3,
+    "total_reads": 3,
+    "average_primer_dimer_rate": 100.0,
+    "average_valid_rate": 0.0
+  },
+  "per_sample_statistics": {
+    "sample3": {
+      "total_reads": 1,
+      "primer_dimer_rate": 100.0,
+      "valid_rate": 0.0
+    },
+    "sample2": {
+      "total_reads": 1,
+      "primer_dimer_rate": 100.0,
+      "valid_rate": 0.0
+    },
+    "sample1": {
+      "total_reads": 1,
+      "primer_dimer_rate": 100.0,
+      "valid_rate": 0.0
+    }
+  },
+  "per_sample_breakdown": [
+    {
+      "sample_id": "sample3",
+      "total_reads": 1,
+      "primer_dimer_count": 1,
+      "primer_dimer_percentage": 100.0,
+      "short_offtarget_count": 1,
+      "long_offtarget_count": 0,
+      "valid_amplicon_count": 0
+    },
+    {
+      "sample_id": "sample2",
+      "total_reads": 1,
+      "primer_dimer_count": 1,
+      "primer_dimer_percentage": 100.0,
+      "short_offtarget_count": 1,
+      "long_offtarget_count": 0,
+      "valid_amplicon_count": 0
+    },
+    {
+      "sample_id": "sample1",
+      "total_reads": 1,
+      "primer_dimer_count": 1,
+      "primer_dimer_percentage": 100.0,
+      "short_offtarget_count": 1,
+      "long_offtarget_count": 0,
+      "valid_amplicon_count": 0
+    }
+  ],
+  "configuration": {
+    "max_dimer_length": 100,
+    "length_tolerance": 50,
+    "quality_threshold": 30,
+    "expected_length": 400,
+    "primer_file": "primers.fasta"
+  },
+  "methods_description": "Analysis performed using Amplicon Analyzer:\n- Primer dimer detection: Sequences below threshold checked for primer matches\n- Off-target detection: Sequences outside expected length range\n- Quality filtering: Reads below quality threshold removed"
+}

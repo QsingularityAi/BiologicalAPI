@@ -1,0 +1,7 @@
+{
+    "max_dimer_length": 100,
+    "length_tolerance": 50,
+    "quality_threshold": 30,
+    "expected_length": 400,
+    "output_format": "both"
+}
